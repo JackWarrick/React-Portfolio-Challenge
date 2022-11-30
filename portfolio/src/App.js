@@ -33,7 +33,7 @@ function App(){
 
     //Header, Nav, and Footer caps because they are brought in
     return (
-        <div>
+        <div className="d-flex flex-column min-vh-100">
 
             <Header>
 
