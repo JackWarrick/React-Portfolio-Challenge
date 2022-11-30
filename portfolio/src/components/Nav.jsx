@@ -24,6 +24,3 @@ export const Nav = ({page, setPage}) => {
     </div>
         </nav>
 }
-
-
-{/* */}
