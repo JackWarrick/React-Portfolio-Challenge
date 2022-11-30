@@ -10,9 +10,9 @@ export const Footer = () => {
                 <h5 className="text-uppercase mb-4 font-weight-bold text-white">
                 <a href="mailto:j.d.warrick@comcast.net">Email Jack Warrick</a>
                 </h5>
-                <h5 className="text-uppercase mb-4 font-weight-bold text-white"><a href="https://github.com/JackWarrick">GitHub Account</a></h5>
-                
-
+                <h5 className="text-uppercase mb-4 font-weight-bold text-white"><a href="https://github.com/JackWarrick">GitHub</a></h5>
+                <h5 className="text-uppercase mb-4 font-weight-bold text-white"><a href="https://www.linkedin.com/in/jack-warrick-23585b145/">LinkedIn</a></h5>
+                <h5 className="text-uppercase mb-4 font-weight-bold text-white"><a href="https://twitter.com/warrickjack">Twitter</a></h5>
                 </div>
 
 
