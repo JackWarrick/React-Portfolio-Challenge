@@ -1,15 +1,14 @@
 import React from 'react'
 
 export const Nav = ({page, setPage}) => {
-    return <nav classNameName="navbar navbar-dark bg-primary">
+    return <nav className="navbar navbar-dark bg-primary">
+      <div className="container-fluid">
+        <div className="col">
         <a className="navbar-brand" href="#" onClick={() => setPage("about")}>Jack Warrick</a>
-  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
-  </button>
-  <div className="collapse navbar-collapse" id="navbarText">
-    <ul className="navbar-nav mr-auto">
+  
+    <ul className="navbar-nav">
       <li className="nav-item active">
-        <a className="nav-link" href="#" onClick={() => setPage("about")}>About <span className="sr-only">(current)</span></a>
+        <a className="nav-link" href="#" onClick={() => setPage("about")}>About</a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="#" onClick={() => setPage("portfolio")}>Portfolio</a>
@@ -21,9 +20,10 @@ export const Nav = ({page, setPage}) => {
         <a className="nav-link" href="#" onClick={() => setPage("resume")}>Resume</a>
       </li>
     </ul>
-    <span className="navbar-text">
-      Navbar text with an inline element
-    </span>
-  </div>
+        </div>
+    </div>
         </nav>
 }
+
+
+{/* */}
