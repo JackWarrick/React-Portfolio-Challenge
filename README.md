@@ -41,6 +41,6 @@ For more information, please reference my GitHub profile [here](https://github.c
 
 -----
 
-**Screenshot of answered prompts:**
+**Screenshot:**
 
 ![Screenshot of Program](./react-portfolio-image.png)
